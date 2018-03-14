@@ -1,1 +1,1 @@
-# PhononicBanGap
+# PhononicBandGap
