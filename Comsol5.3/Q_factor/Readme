@@ -1,0 +1,6 @@
+The model for the 3 inches (76.2 mm) silicon wafer with holes 3.77 mm in diameter. 
+Silicon properties: Young's modulus 156e9 Pa, Poisson's ratio 0.27, density 2329 kg/m^3.
+Damping of silicon: 10^(-8).
+Calculated frequencies: 595Hz, 1278Hz, 1MHz. 
+The Q-factor is determined by the damping in silicon and it doesn't diverge from the Q'factor of the wafer without holes.
+The model in Solid Mechanics physics and Eigenfrequency study doesn't work for such calculations.
