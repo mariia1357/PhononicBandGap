@@ -1,2 +1,3 @@
 # PhononicBandGap
-The next step is to calculate Q-factor for the disk with holes and without holes. To find out what frequences of the phononic band gap are created and apply another pattern to compare the effect.  
+There was used one method of calculation of Phonoic BandGap that gave an error in diagonal propagation of an acoustic wave. 
+It is interesting to look at another way of calculation using the Pressure Acoustic Module. 
