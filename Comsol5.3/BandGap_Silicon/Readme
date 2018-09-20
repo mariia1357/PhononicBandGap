@@ -9,7 +9,7 @@ Length L1=7mm, E1 = 156*10^9 Pa, Poisson1 = 0.27, density Rho1 = 2329 kg/m^3
 
 In physics of solid mechanics it is used Floquet Periodic Conditions.
      for left and right borders: kx = if(k<1,pi/a*k,if(k<2,0,(3-k)*pi/a))
-     for top and bottom borders: ky = if(k<1,0,if(k<2,pi/a*k,(3-k)*pi/a))
+     for top and bottom borders: ky = if(k<1,0,if(k<2,pi/a*(k-1),(3-k)*pi/a))
      
 where a = 0.543 nm - length of crystal lattice for silicon;
 k is a parameter for wave number, range is from 0 to 3.
