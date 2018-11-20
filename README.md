@@ -1,3 +1,3 @@
 # PhononicBandGap
-There was used one method of calculation of Phonoic BandGap that gave an error in diagonal propagation of an acoustic wave. 
-It is interesting to look at another way of calculation using the Pressure Acoustic Module. 
+Solid Mechanics Module is not appropriate module for accurate calculation of Phononic BandGap
+as the result in some cases diverges due to the choice of number eigenfrequencies. 
