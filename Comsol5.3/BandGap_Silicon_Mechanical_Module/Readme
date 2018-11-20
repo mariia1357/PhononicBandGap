@@ -20,10 +20,15 @@ k=2-3 - diagonal direction
 
 For getting rid of creating waves inside of a circle it is used Prescribed Displacement. 
 
-For such hole the frequencies that don't propogate are about 1.32 MHz (horizontal and vertical directions).
+For such size of a square and a hole the frequencies that don't propogate are about 1.32 MHz (horizontal and vertical directions).
 The error occurs for diagonal direcion of wave number vector. 
+The result is calculated for 5 desired number of eigenfrequencies.
+For 6 number the result differes due to the error in calculations (mesh doesn't change the picture).
+8 number of eigenfrequencies gives the same result as for 5.
 
-To make sure that this band gap is determined by the size of the hole, the silicon square was increased to L2=9mm.
+Assuming that the bandgap is created by the hole in the bulk, the silicon square was increased to L2=9mm.
+
+
 The frequencies of the band gap are stayed the same.
 
 Due to the formula f = v/b, 
@@ -36,3 +41,5 @@ the calculation seems to be correct.
 
 For b = 5*10^-3 m, f must to be about 1 MHz.
 The calculation gives the same result.
+
+
