@@ -27,19 +27,20 @@ For 6 number the result differes due to the error in calculations (mesh doesn't 
 8 number of eigenfrequencies gives the same result as for 5.
 
 Assuming that the bandgap is created by the hole in the bulk, the silicon square was increased to L2=9mm.
-
-
-The frequencies of the band gap are stayed the same.
+The bandgap for frequencies about 1.32 MHz is created for 7 desired number of eigenfrequencies and matches with previous calculation. 
+However, for 5 number it gives mess.
 
 Due to the formula f = v/b, 
 where v is a velocity of sound in material, b is a diameter of a hole
 for f = 1.32*10^6 Hz and b = 4*10^-3 m, v = 5280 m/s.
 
 Due to the source https://en.wikipedia.org/wiki/Speeds_of_sound_of_the_elements_(data_page) 
-where transversal speed of sound in silicon is 5843 m/s,
-the calculation seems to be correct.
+the transversal speed of sound in silicon is 5843 m/s.
 
 For b = 5*10^-3 m, f must to be about 1 MHz.
-The calculation gives the same result.
+The calculation gives such result for 5, 6, 7 desired number of eigenfrequencies. 
+There is no deviation for this radius of the hole with the size of square L2=7mm. 
 
-
+Conclusion: Solid Mechanics Module is not appropriate module for accurate calculation of Phononic BandGap
+as the result in some cases diverges due to the choice of number eigenfrequencies. 
+3D model gives also this dependance. 
